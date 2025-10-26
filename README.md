@@ -33,9 +33,9 @@ When your model training is done, click model catogory on the left, then click t
 # Step 9
 Great we got a model working online. Let's try to run it on local computer and see if it can do the same thing. To do so, you need 3 things: 1. private api key belongs to the workspace 2. the model url 3. some python code
 
-To get the api key, checkout the dark color bar on the left, you should see a gear icon, and your account icon should be down there. If you click the gear icon, it should pop up Workspace Setting. Select API keys, copy the private api somewhere then you can use it later. Then, go back to your projects, select your the model you trained. Copy down the Model URL somewhere for later use.
+To get the _api key_, checkout the dark color bar on the left, you should see a _gear icon_, and your account icon should be down there. If you click the gear icon, it should pop up Workspace Setting. Select API keys, copy the private api somewhere then you can use it later. Then, go back to your projects, select your the model you trained. Copy down the Model URL somewhere for later use.
 
-Then, clone this repo and open test.py. Change line 10 where it says model id to the Model URL you copyed. Lastly, change the image file to the correct image name.
+Then, _clone this repo_ and open _test.py_. Change _line 10_ where it says _model id_ to the Model URL you copyed. Lastly, change the image file to the correct image name.
 
 # Step 10
 Install the lib using:
@@ -50,7 +50,7 @@ then
 ```
 python test.py
 ```
-If the program runs properly, it should pop up an image with boxed target. If not, please paste the error from terminal and ask my best friend chatgpt for guidence XD. 
+If the program runs properly, it should pop up an image with boxed target. If not, please paste the error from terminal and ask my best friend _chatgpt_ for guidence XD. 
 
 Congratulations! You’ve completed the training and deployment of your model on Roboflow. There’s a lot of potential for AI training on Roboflow — you can explore different functionalities such as workflows or experiment with various models to achieve your desired results. You can also download and use models shared by others right away.
 
